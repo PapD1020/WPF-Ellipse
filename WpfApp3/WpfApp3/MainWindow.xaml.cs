@@ -24,5 +24,11 @@ namespace WpfApp3
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            SolidColorBrush cBrush = (SolidColorBrush)new BrushConverter().ConvertFromString("Yellow");
+            Ellipse1.Fill = cBrush;
+        }
     }
 }
