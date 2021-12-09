@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="367,239,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="Ellipse1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="367,239,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="Button1" Content="Button" HorizontalAlignment="Left" Margin="62,366,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
